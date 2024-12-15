@@ -94,6 +94,10 @@ case "$TARGET" in
         DTB_WILDCARD="ukee"
         DTBO_WILDCARD="marble-sm7475-pm8008-overlay"
         ;;
+    "mondrian" )
+        DTB_WILDCARD="cape"
+        DTBO_WILDCARD="mondrian-sm8475-pm8008-overlay"
+        ;;
 esac
 
 export PATH="$TC_DIR/bin:$PREBUILTS_DIR/bin:$PATH"
